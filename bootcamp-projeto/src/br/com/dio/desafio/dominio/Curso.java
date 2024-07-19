@@ -1,5 +1,6 @@
 package br.com.dio.desafio.dominio;
 
+
 public class Curso extends Conteudo{
 
     private int cargaHoraria;
@@ -24,7 +25,7 @@ public class Curso extends Conteudo{
     @Override
     public String toString() {
         return "Curso{" +
-                "titulo='" + getTitulo() + '\'' +
+                "Titulo='" + getTitulo() + '\'' +
                 ", descricao='" + getDescricao() + '\'' +
                 ", cargaHoraria=" + cargaHoraria +
                 '}';
